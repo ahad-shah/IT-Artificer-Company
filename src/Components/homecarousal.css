@@ -1,0 +1,35 @@
+.carbox::before{
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-shadow: inset 2000px 0 0 rgb(8, 85, 136);
+   
+    opacity: 0.5;
+    position: absolute;
+    z-index: 0;
+
+}
+.carbox{
+    position: relative;
+   
+}
+.carbox img{
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width:700px) {
+    .carbox img{
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .carbox img{
+        height: 200px;
+    }
+    
+}
+

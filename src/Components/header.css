@@ -1,0 +1,136 @@
+.top-header{
+    background-color: #1bbc9b;
+    /* background-color: blueviolet; */
+    padding: 10px 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+.top-header .left-tpheader span{
+color: white;
+
+
+}
+.top-header span{
+    margin-left: 20px;
+    align-items: baseline;
+    font-size: 16px;
+    display: inline-block;
+   
+ 
+}
+.top-header span i{
+    margin-right: 10px;
+    font-size: 16px;
+    
+}
+.top-header .right-tpheader ul{
+    list-style: none;
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 0;
+
+}
+.right-tpheader ul li a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration:  none;
+    
+}
+.right-tpheader ul li a::after{
+    content: '/';
+    color: inherit;
+    font-size: inherit;
+   margin-left: 20px;
+
+   
+ 
+}
+.menu ul li{
+ list-style: none;
+}
+.menu {
+    
+   
+    justify-content: end;
+    align-items: center;
+  
+    flex-grow: 1;
+
+}
+.menu ul li a{
+    font-family: "open sans","sans-serif";
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+    text-decoration: none;
+    margin: auto 10px;
+}
+.menu .list-group {
+   
+    position: absolute;
+    display: none;
+    width: 400px;
+    z-index: 99;
+ 
+}
+.menu .list-group-item:hover a{
+    color: white;
+
+}
+.menu ul li:nth-last-child(1) .list-group{
+    right: 0;
+}
+.menu ul li:hover ul{
+    display: block;
+}
+.menu ul li ul li:hover{
+    background-color: #1bbc9b;
+    color: white;
+}
+
+
+.primary-menu {
+   
+    background-color: #1bbc9b;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    right: 0;
+}
+.primary-menu ul {
+    padding: 0;
+    list-style: none;
+    
+}
+.primary-menu ul li{
+    border-bottom: 1px solid white;
+    color: white;
+    border-collapse: collapse;
+    padding: 0;
+  
+}
+.primary-menu ul li a{
+    color: white;
+ 
+    display: block;
+  
+    flex-grow: 1;
+    text-align: left;
+    padding: 10px 20px;
+}
+.primary-menu ul li span{
+   
+    display: inline-block;
+    width: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+   border-left: 1px solid white;
+}

@@ -1,0 +1,73 @@
+
+
+
+.foot h3 {
+    color: #1bbc9b
+} .foot ul {
+    list-style-type: none;
+    color: white;
+}
+.foot p{
+    color: white;
+    text-align: justify;
+    font-family: "Open Sans",sans-serif;
+}
+.foot ul li a{
+    color: lightgray;
+    text-decoration: none;
+}
+.f-socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-socialmedia a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    
+    transform: rotate(45deg);
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    text-decoration: none;
+    
+}
+.f-socialmedia a span{
+    transform: rotate(-45deg);
+    font-size: 25px;
+    color: grey;
+   
+}
+
+.f-socialmedia a[href*="facebook"]:hover{
+    border: none;
+    background-color: blue;
+    transition: 1.5s;
+    text-decoration: none;
+}
+.f-socialmedia a[href*="twitter"]:hover{
+    border: none;
+    background-color:lightskyblue;
+    transition: 1.5s;
+    text-decoration: none;
+}
+.f-socialmedia a[href*="youtube"]:hover{
+    border: none;
+    background-color: red;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+.f-socialmedia a:hover span{
+    color: white;
+
+}
+.bottomfoot{
+    background-color: rgb(90, 84, 84);
+    color: grey;
+    padding: 10px 30px;
+}
+
+
+

@@ -1,0 +1,38 @@
+.ourservice .our-card:hover .servicebox{
+    border: 1px solid white;
+    background-color: #1bbc9b;
+
+}
+.ourservice .our-card:hover .servicebox span{
+    color: white;
+}
+.ourservice{
+    padding: 20px 0 60px 0;
+}
+
+.ourservice .servicebox{
+    /* background-color: #9bc9bc; */
+    border: 1px solid #1bbc9b;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+}
+.ourservice .servicebox span{
+    transform: rotate(-45deg);
+    color: #1bbc9b;
+    font-size: 40px;
+}
+.ourservice .readmore{
+    color: #1bbc9b;
+    text-decoration: none;
+}
+.ourservice p{
+    overflow: hidden;
+     text-overflow: ellipsis;
+      display: -webkit-box;
+       -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+}

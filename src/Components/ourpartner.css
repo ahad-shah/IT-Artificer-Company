@@ -1,0 +1,26 @@
+.partner{
+    background-color: gainsboro;
+}
+
+.partner .fa-users{
+    color: #1bbc9b;
+    font-size: 30px;
+}
+
+.partner .usersicon::after{
+    content: ' ';
+    background-color: grey;
+    width: 100px;
+    height: 1px;
+    display:inline-block;
+}
+.partner .usersicon::before{
+    content: ' ';
+    background-color: grey;
+    width: 100px;
+    height: 1px;
+    display:inline-block;
+}
+.partner h5{
+    color: grey;
+}

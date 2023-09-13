@@ -1,0 +1,118 @@
+
+
+.recentpost .Newstext{
+    position:absolute;
+    z-index: 3;
+    bottom: 10px;
+    /* background-color: skyblue; */
+    left: 0;
+    right: 0;
+   
+    padding-left: 5px;
+    
+}
+.recentpost .newsheading,.recentpost .Newsdate{
+    text-align: left;
+    color: white;
+}
+.recentpost .Newscard-large, .recentpost .Newscard-small{
+    position: relative;
+  
+   
+}
+
+.recentpost .Newscard-small{
+    height: 220px;
+}
+.recentpost .contan{
+   
+   
+    padding: 40px 0px;
+   
+   
+   
+}
+
+
+.recentpost .Newscard-large{
+  overflow: hidden;
+  padding: 0  !important;
+ 
+}
+
+
+
+
+.recentpost .Newscard-large::before,.recentpost .Newscard-small::before{
+    content: ' ';
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    /* background-color: rgb(70, 0, 139); */
+    box-shadow: inset 0 0 2000px rgba(102, 86, 180, 0.425);
+
+    
+}
+
+.recentpost p,.recentpost h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+     display: -webkit-box;
+      -webkit-line-clamp: 1;
+       -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width:900px) {
+ 
+    .recentpost .Newscard-small{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .recentpost .contan{
+        height: 100%;
+       
+        padding: 40px 0px;
+    }
+    .recentpost .Newscard-large{
+        height: 300px;
+    }
+    .recentpost .Newscard-small{
+        height: 200px;
+       
+        
+    }
+    
+}
+@media screen and (max-width:576px) {
+
+    .recentpost .Newscard-large{
+        height: 230px;
+    }
+    .recentpost .Newscard-small{
+        height: 230px;
+       
+        
+    }
+    .recentpost .newsheading{
+        font-size: 20px;
+    }
+    .recentpost .contan{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .recentpost .Newscard-large{
+        height: 180px;
+    }
+    .recentpost .Newscard-small{
+        height: 180px;
+       
+        
+    }
+
+    
+}

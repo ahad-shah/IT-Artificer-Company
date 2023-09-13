@@ -1,0 +1,28 @@
+
+.blog .blhead{
+    border:  solid #1bbc9b;
+    border-width: 0px 0px 2px 0px;
+    padding-bottom: 5px;
+    
+}
+.blog .row{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+.blog p{
+    color: grey;
+}
+.blog .blogdate{
+    position: absolute;
+    
+    bottom: 0;
+}
+.blog .blogdate .fa-regular{
+    color: #1bbc9b;
+    font-size: 20px;
+}
+.blog .blgcontentbox{
+    position: relative;
+    
+    height: 100%;
+}
